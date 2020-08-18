@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Dec 29 15:35:10 2019
+# Process ID: 4068
+# Current directory: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_xlslice_1_1_synth_1
+# Command line: vivado.exe -log Project_design_xlslice_1_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Project_design_xlslice_1_1.tcl
+# Log file: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_xlslice_1_1_synth_1/Project_design_xlslice_1_1.vds
+# Journal file: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_xlslice_1_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Project_design_xlslice_1_1.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP Project_design_xlslice_1_1, cache-ID = 5cf09140cbc62d5a.
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 29 15:35:16 2019...

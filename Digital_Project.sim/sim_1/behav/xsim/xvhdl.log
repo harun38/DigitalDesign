@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/harun/Digital_Project/Digital_Project.ip_user_files/bd/Project_design/sim/Project_design.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Project_design
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/harun/Digital_Project/Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_c_counter_binary_0_0/sim/Project_design_c_counter_binary_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Project_design_c_counter_binary_0_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/harun/Digital_Project/Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_c_counter_binary_0_1/sim/Project_design_c_counter_binary_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Project_design_c_counter_binary_0_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/harun/Digital_Project/Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_c_counter_binary_1_0/sim/Project_design_c_counter_binary_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Project_design_c_counter_binary_1_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/imports/hdl/Project_design_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Project_design_wrapper

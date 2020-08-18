@@ -1,0 +1,364 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Dec 30 09:36:02 2019
+# Process ID: 12152
+# Current directory: C:/Users/harun/Digital_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9084 C:\Users\harun\Digital_Project\Digital_Project.xpr
+# Log file: C:/Users/harun/Digital_Project/vivado.log
+# Journal file: C:/Users/harun/Digital_Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/harun/Digital_Project/Digital_Project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo8'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo7'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo16'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo4'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo.3'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo.2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/Desktop/digital desing/Basys3-master/Library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_dff_en_reset_0_0/Debouncer_xup_dff_en_reset_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_dff_en_reset_0_1/Debouncer_xup_dff_en_reset_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_dff_en_reset_0_2/Debouncer_xup_dff_en_reset_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_xor2_0_0/Debouncer_xup_xor2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_xor2_0_1/Debouncer_xup_xor2_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_or2_0_0/Debouncer_xup_or2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_dff_en_reset_0_3/Debouncer_xup_dff_en_reset_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_dff_en_reset_1_0/Debouncer_xup_dff_en_reset_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_dff_en_reset_2_0/Debouncer_xup_dff_en_reset_2_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_xor2_0_2/Debouncer_xup_xor2_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_xor2_1_0/Debouncer_xup_xor2_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_or2_0_1/Debouncer_xup_or2_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xlconstant_0_0/Debouncer_xlconstant_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_dff_en_reset_0_0/Debouncer_xup_dff_en_reset_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_dff_en_reset_0_1/Debouncer_xup_dff_en_reset_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_dff_en_reset_0_2/Debouncer_xup_dff_en_reset_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_xor2_0_0/Debouncer_xup_xor2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_xor2_0_1/Debouncer_xup_xor2_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_or2_0_0/Debouncer_xup_or2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_dff_en_reset_0_3/Debouncer_xup_dff_en_reset_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_dff_en_reset_1_0/Debouncer_xup_dff_en_reset_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_dff_en_reset_2_0/Debouncer_xup_dff_en_reset_2_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_xor2_0_2/Debouncer_xup_xor2_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_xor2_1_0/Debouncer_xup_xor2_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xup_or2_0_1/Debouncer_xup_or2_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_Debouncer_0_2' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/src/Debouncer_xlconstant_0_0/Debouncer_xlconstant_0_0.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'Debouncer_xup_dff_en_reset_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'Project_design_Debouncer_0_2'. Error during subcore creation.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and2_0_0/B_input_xup_and2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and3_0_0/B_input_xup_and3_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and4_0_0/B_input_xup_and4_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_or4_0_0/B_input_xup_or4_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_xnor2_0_0/B_input_xup_xnor2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_0_0/B_input_xup_inv_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_0_1/B_input_xup_inv_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_0_2/B_input_xup_inv_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and4_0_1/B_input_xup_and4_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and2_0_1/B_input_xup_and2_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and3_0_1/B_input_xup_and3_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and4_0_2/B_input_xup_and4_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_or4_0_1/B_input_xup_or4_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_xnor2_0_1/B_input_xup_xnor2_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_0_3/B_input_xup_inv_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_1_0/B_input_xup_inv_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and4_1_0/B_input_xup_and4_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and2_0_2/B_input_xup_and2_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and2_0_3/B_input_xup_and2_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and3_0_2/B_input_xup_and3_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and4_0_3/B_input_xup_and4_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_or4_0_2/B_input_xup_or4_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_xnor2_0_2/B_input_xup_xnor2_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_0_4/B_input_xup_inv_0_4.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_1_1/B_input_xup_inv_1_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and4_1_1/B_input_xup_and4_1_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and2_1_0/B_input_xup_and2_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_1_2/B_input_xup_inv_1_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and2_0_0/B_input_xup_and2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and3_0_0/B_input_xup_and3_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and4_0_0/B_input_xup_and4_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_or4_0_0/B_input_xup_or4_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_xnor2_0_0/B_input_xup_xnor2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_0_0/B_input_xup_inv_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_0_1/B_input_xup_inv_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_0_2/B_input_xup_inv_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and4_0_1/B_input_xup_and4_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and2_0_1/B_input_xup_and2_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and3_0_1/B_input_xup_and3_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and4_0_2/B_input_xup_and4_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_or4_0_1/B_input_xup_or4_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_xnor2_0_1/B_input_xup_xnor2_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_0_3/B_input_xup_inv_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_1_0/B_input_xup_inv_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and4_1_0/B_input_xup_and4_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and2_0_2/B_input_xup_and2_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and2_0_3/B_input_xup_and2_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and3_0_2/B_input_xup_and3_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and4_0_3/B_input_xup_and4_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_or4_0_2/B_input_xup_or4_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_xnor2_0_2/B_input_xup_xnor2_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_0_4/B_input_xup_inv_0_4.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_1_1/B_input_xup_inv_1_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and4_1_1/B_input_xup_and4_1_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_and2_1_0/B_input_xup_and2_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_B_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/src/B_input_xup_inv_1_2/B_input_xup_inv_1_2.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'B_input_xup_and2_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'Project_design_B_input_0_0'. Error during subcore creation.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_and3_0_0/C_input_xup_and3_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_and2_0_0/C_input_xup_and2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_inv_0_0/C_input_xup_inv_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_xor2_0_0/C_input_xup_xor2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_or2_0_0/C_input_xup_or2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_and3_0_1/C_input_xup_and3_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_and2_0_1/C_input_xup_and2_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_inv_2_0/C_input_xup_inv_2_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_and3_0_2/C_input_xup_and3_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_or3_0_0/C_input_xup_or3_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_and3_0_3/C_input_xup_and3_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_and2_0_2/C_input_xup_and2_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_inv_0_2/C_input_xup_inv_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_xor2_0_1/C_input_xup_xor2_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_or2_0_1/C_input_xup_or2_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_and3_1_0/C_input_xup_and3_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_and2_1_0/C_input_xup_and2_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Project_design_C_input_0_0' generated file not found 'c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/src/C_input_xup_inv_3_0/C_input_xup_inv_3_0.xci'. Please regenerate to continue.
+INFO: [Common 17-14] Message 'IP_Flow 19-3664' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'C_input_xup_and3_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'Project_design_C_input_0_0'. Error during subcore creation.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'D_input_xup_and2_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'Project_design_D_input_0_0'. Error during subcore creation.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'E_input_xup_and4_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'Project_design_E_input_0_0'. Error during subcore creation.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'F_input_xup_and4_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'Project_design_F_input_0_0'. Error during subcore creation.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'Idle_input_xup_or3_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'Project_design_Idle_input_0_0'. Error during subcore creation.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'A_input_xup_and2_0_2'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'Project_design_A_input_0_0'. Error during subcore creation.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'Debouncer_xup_dff_en_reset_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'Project_design_Debouncer_2_0'. Error during subcore creation.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'B_input_xup_and2_0_3'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'Project_design_B_input_0_0'. Error during subcore creation.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'E_input_xup_and4_0_2'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'Project_design_E_input_0_0'. Error during subcore creation.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'F_input_xup_and4_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'Project_design_F_input_0_0'. Error during subcore creation.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'A_input_xup_and2_0_2'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'Project_design_A_input_0_0'. Error during subcore creation.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'Project_design.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+Project_design_Debouncer_0_0
+Project_design_Debouncer_0_1
+Project_design_C_input_0_0
+Project_design_D_input_0_0
+Project_design_Idle_input_0_0
+
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 912.957 ; gain = 199.160
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/A_input/A_input.bd}
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:XUP:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:XUP:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:XUP:xup_xnor2:1.0 - xup_xnor2_0
+Adding cell -- xilinx.com:XUP:xup_or4:1.0 - xup_or4_0
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_0
+Adding cell -- xilinx.com:XUP:xup_and3:1.0 - xup_and3_1
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_2
+Successfully read diagram <A_input> from BD file <C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/A_input/A_input.bd>
+open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1021.383 ; gain = 95.203
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo8'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo7'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo16'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo4'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo.3'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo.2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/harun/Desktop/digital desing/Basys3-master/Library'.
+reset_run synth_1
+reset_run Project_design_Debouncer_0_2_synth_1
+reset_run Project_design_A_input_0_0_synth_1
+reset_run Project_design_B_input_0_0_synth_1
+reset_run Project_design_D_input_0_0_synth_1
+reset_run Project_design_F_input_0_0_synth_1
+reset_run Project_design_E_input_0_0_synth_1
+reset_run Project_design_Idle_input_0_0_synth_1
+reset_run Project_design_C_input_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_0_2/Project_design_Debouncer_0_2.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0/Project_design_B_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_C_input_0_0/Project_design_C_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_D_input_0_0/Project_design_D_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_E_input_0_0/Project_design_E_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_F_input_0_0/Project_design_F_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Idle_input_0_0/Project_design_Idle_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_A_input_0_0/Project_design_A_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_2_0/Project_design_Debouncer_2_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_B_input_0_0_1/Project_design_B_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_E_input_0_0_1/Project_design_E_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_F_input_0_0_1/Project_design_F_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_A_input_0_0_1/Project_design_A_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_2_0_1/Project_design_Debouncer_2_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_E_input_0_0_2/Project_design_E_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_F_input_0_0_2/Project_design_F_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_A_input_0_0_2/Project_design_A_input_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/Project_design.bd
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Implementation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/Project_design.bd
+
+[Mon Dec 30 09:39:17 2019] Launched Project_design_Debouncer_0_2_synth_1, Project_design_A_input_0_0_synth_1, Project_design_B_input_0_0_synth_1, Project_design_D_input_0_0_synth_1, Project_design_F_input_0_0_synth_1, Project_design_E_input_0_0_synth_1, Project_design_Idle_input_0_0_synth_1, Project_design_C_input_0_0_synth_1, Project_design_Debouncer_2_0_synth_1, synth_1...
+Run output will be captured here:
+Project_design_Debouncer_0_2_synth_1: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_Debouncer_0_2_synth_1/runme.log
+Project_design_A_input_0_0_synth_1: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_A_input_0_0_synth_1/runme.log
+Project_design_B_input_0_0_synth_1: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_B_input_0_0_synth_1/runme.log
+Project_design_D_input_0_0_synth_1: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_D_input_0_0_synth_1/runme.log
+Project_design_F_input_0_0_synth_1: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_F_input_0_0_synth_1/runme.log
+Project_design_E_input_0_0_synth_1: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_E_input_0_0_synth_1/runme.log
+Project_design_Idle_input_0_0_synth_1: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_Idle_input_0_0_synth_1/runme.log
+Project_design_C_input_0_0_synth_1: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_C_input_0_0_synth_1/runme.log
+Project_design_Debouncer_2_0_synth_1: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_Debouncer_2_0_synth_1/runme.log
+synth_1: C:/Users/harun/Digital_Project/Digital_Project.runs/synth_1/runme.log
+[Mon Dec 30 09:39:18 2019] Launched impl_1...
+Run output will be captured here: C:/Users/harun/Digital_Project/Digital_Project.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1057.273 ; gain = 6.488
+open_bd_design {C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/Project_design.bd}
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - xup_dff_en_reset_0
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - xup_dff_en_reset_1
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - xup_dff_en_reset_2
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - xup_dff_en_reset_3
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - xup_dff_en_reset_4
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - xup_dff_en_reset_5
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - xup_dff_en_reset_6
+Adding cell -- xilinx.com:XUP:xup_clk_divider:1.0 - xup_clk_divider_0
+Adding cell -- xilinx.com:XUP:seg7display:1.0 - seg7display_0
+Adding cell -- xilinx.com:XUP:xup_or5:1.0 - xup_or5_0
+Adding cell -- xilinx.com:XUP:xup_or4:1.0 - xup_or4_1
+Adding cell -- xilinx.com:ip:c_counter_binary:12.0 - c_counter_binary_0
+Adding cell -- xilinx.com:ip:c_counter_binary:12.0 - c_counter_binary_1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding cell -- xilinx.com:user:Debouncer:1.0 - Debouncer_0
+Adding cell -- xilinx.com:user:Debouncer:1.0 - Debouncer_1
+Adding cell -- xilinx.com:user:Debouncer:1.0 - Debouncer_2
+Adding cell -- xilinx.com:XUP:bin2bcd:1.0 - bin2bcd_0
+Adding cell -- xilinx.com:XUP:bin2bcd:1.0 - bin2bcd_1
+Adding cell -- xilinx.com:user:Idle_input:1.0 - Idle_input_0
+Adding cell -- xilinx.com:user:B_input:1.0 - B_input_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: Project_design_B_input_0_0 
+Adding cell -- xilinx.com:user:C_input:1.0 - C_input_0
+Adding cell -- xilinx.com:user:E_input:1.0 - E_input_0
+Adding cell -- xilinx.com:user:F_input:1.0 - F_input_0
+Adding cell -- xilinx.com:user:D_input:1.0 - D_input_0
+Adding cell -- xilinx.com:ip:c_counter_binary:12.0 - c_counter_binary_2
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_2
+Adding cell -- xilinx.com:XUP:bin2bcd:1.0 - bin2bcd_2
+Adding cell -- xilinx.com:XUP:xup_2_to_1_mux_vector:1.0 - xup_2_to_1_mux_vector_0
+Adding cell -- xilinx.com:XUP:xup_2_to_1_mux_vector:1.0 - xup_2_to_1_mux_vector_1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_3
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_2
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_3
+Adding cell -- xilinx.com:XUP:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_1
+Adding cell -- xilinx.com:XUP:xup_4_to_1_mux_vector:1.0 - xup_4_to_1_mux_vector_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_4
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:XUP:bin2bcd:1.0 - bin2bcd_3
+Adding cell -- xilinx.com:XUP:bin2bcd:1.0 - bin2bcd_4
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:XUP:xup_or3:1.0 - xup_or3_1
+Adding cell -- xilinx.com:XUP:xup_4_to_1_mux_vector:1.0 - xup_4_to_1_mux_vector_1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_6
+Adding cell -- xilinx.com:user:A_input:1.0 - A_input_0
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_1
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk(clk) and /xup_clk_divider_0/clkin(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk(clk) and /Debouncer_0/FSLK(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk(clk) and /Debouncer_1/FSLK(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk(clk) and /Debouncer_2/FSLK(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_en_reset_0/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_en_reset_1/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_en_reset_2/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_en_reset_3/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_en_reset_4/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_en_reset_5/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_en_reset_6/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Debouncer_0/X0(undef) and /c_counter_binary_2/CLK(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /resetC(rst) and /Idle_input_0/Reset(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /resetC(rst) and /B_input_0/Reset(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /resetC(rst) and /C_input_0/Reset(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /resetC(rst) and /E_input_0/Reset(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /resetC(rst) and /F_input_0/Reset(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /resetC(rst) and /D_input_0/Reset(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /resetC(rst) and /A_input_0/Reset(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_and2_1/y(undef) and /c_counter_binary_0/CLK(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_and2_0/y(undef) and /c_counter_binary_1/CLK(clk)
+Successfully read diagram <Project_design> from BD file <C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/Project_design.bd>
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {Project_design_C_input_0_0 Project_design_D_input_0_0 Project_design_Debouncer_0_0 Project_design_Debouncer_0_1 Project_design_Idle_input_0_0}] -log ip_upgrade.log
+Upgrading 'C:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/Project_design.bd'
+ERROR: [Vivado 12-3445] A collection of objects is currently not supported at this time.  Please provide only one sub-design.
+ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-3445] A collection of objects is currently not supported at this time.  Please provide only one sub-design.
+
+validate_bd_design
+ERROR: [BD 5-336] This command cannot be run, as the BD-design is locked. Locked reason(s):
+* Block design contains locked IPs. Please run report_ip_status for more details and recommendations on how to fix this issue. 
+List of locked IPs: 
+Project_design_Debouncer_0_0
+Project_design_Debouncer_0_1
+Project_design_C_input_0_0
+Project_design_D_input_0_0
+Project_design_Idle_input_0_0
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.

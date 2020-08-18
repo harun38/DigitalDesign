@@ -1,0 +1,143 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port CLed -pg 1 -y -850 -defaultsOSRD
+preplace port FLed -pg 1 -y -580 -defaultsOSRD
+preplace port resetC -pg 1 -y -210 -defaultsOSRD
+preplace port NCLed -pg 1 -y -560 -defaultsOSRD
+preplace port L1Out -pg 1 -y -670 -defaultsOSRD
+preplace port Mode -pg 1 -y -100 -defaultsOSRD
+preplace port L2Out -pg 1 -y -750 -defaultsOSRD
+preplace port L1 -pg 1 -y -850 -defaultsOSRD
+preplace port NC -pg 1 -y -940 -defaultsOSRD
+preplace port L2 -pg 1 -y -780 -defaultsOSRD
+preplace port ELed -pg 1 -y -720 -defaultsOSRD
+preplace port dp -pg 1 -y -210 -defaultsOSRD
+preplace port DLed -pg 1 -y -780 -defaultsOSRD
+preplace port clockOutput -pg 1 -y -340 -defaultsOSRD
+preplace port en -pg 1 -y -610 -defaultsOSRD
+preplace port IdleLed -pg 1 -y -820 -defaultsOSRD
+preplace port CSR1 -pg 1 -y -90 -defaultsOSRD
+preplace port ALed -pg 1 -y -700 -defaultsOSRD
+preplace port CSR2 -pg 1 -y -30 -defaultsOSRD
+preplace port clk -pg 1 -y -450 -defaultsOSRD
+preplace port BLed -pg 1 -y -600 -defaultsOSRD
+preplace port reset -pg 1 -y -550 -defaultsOSRD
+preplace portBus an -pg 1 -y -150 -defaultsOSRD
+preplace portBus seg -pg 1 -y -240 -defaultsOSRD
+preplace inst xup_4_to_1_mux_vector_0 -pg 1 -lvl 4 -y 560 -defaultsOSRD
+preplace inst xup_or3_0 -pg 1 -lvl 2 -y 570 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 7 -y 230 -defaultsOSRD
+preplace inst D_input_0 -pg 1 -lvl 7 -y -670 -defaultsOSRD
+preplace inst Debouncer_0 -pg 1 -lvl 1 -y -900 -defaultsOSRD
+preplace inst xup_4_to_1_mux_vector_1 -pg 1 -lvl 4 -y 760 -defaultsOSRD
+preplace inst xup_or3_1 -pg 1 -lvl 2 -y 790 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -y 500 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 7 -y 320 -defaultsOSRD
+preplace inst Debouncer_1 -pg 1 -lvl 1 -y -770 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 2 -y 680 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 7 -y 500 -defaultsOSRD
+preplace inst Idle_input_0 -pg 1 -lvl 3 -y -700 -defaultsOSRD
+preplace inst bin2bcd_0 -pg 1 -lvl 5 -y 130 -defaultsOSRD
+preplace inst Debouncer_2 -pg 1 -lvl 1 -y -640 -defaultsOSRD
+preplace inst xup_or4_1 -pg 1 -lvl 11 -y -270 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 7 -y 620 -defaultsOSRD
+preplace inst C_input_0 -pg 1 -lvl 6 -y -680 -defaultsOSRD
+preplace inst bin2bcd_1 -pg 1 -lvl 5 -y 0 -defaultsOSRD
+preplace inst xup_dff_en_reset_0 -pg 1 -lvl 3 -y -480 -defaultsOSRD
+preplace inst bin2bcd_2 -pg 1 -lvl 5 -y 260 -defaultsOSRD
+preplace inst E_input_0 -pg 1 -lvl 8 -y -660 -defaultsOSRD
+preplace inst xup_dff_en_reset_1 -pg 1 -lvl 4 -y -480 -defaultsOSRD
+preplace inst bin2bcd_3 -pg 1 -lvl 5 -y 760 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 6 -y 280 -defaultsOSRD
+preplace inst c_counter_binary_0 -pg 1 -lvl 4 -y 210 -defaultsOSRD
+preplace inst seg7display_0 -pg 1 -lvl 10 -y 440 -defaultsOSRD
+preplace inst xup_dff_en_reset_2 -pg 1 -lvl 5 -y -420 -defaultsOSRD
+preplace inst bin2bcd_4 -pg 1 -lvl 5 -y 570 -defaultsOSRD -resize 240 80
+preplace inst xlconcat_2 -pg 1 -lvl 6 -y 510 -defaultsOSRD
+preplace inst c_counter_binary_1 -pg 1 -lvl 4 -y -10 -defaultsOSRD
+preplace inst xup_dff_en_reset_3 -pg 1 -lvl 6 -y -470 -defaultsOSRD
+preplace inst A_input_0 -pg 1 -lvl 4 -y -700 -defaultsOSRD
+preplace inst xlconcat_3 -pg 1 -lvl 9 -y 440 -defaultsOSRD
+preplace inst c_counter_binary_2 -pg 1 -lvl 4 -y 100 -defaultsOSRD
+preplace inst xup_dff_en_reset_4 -pg 1 -lvl 7 -y -470 -defaultsOSRD
+preplace inst xlconcat_4 -pg 1 -lvl 3 -y 670 -defaultsOSRD
+preplace inst xup_clk_divider_0 -pg 1 -lvl 1 -y -460 -defaultsOSRD -resize 59 50
+preplace inst xup_dff_en_reset_5 -pg 1 -lvl 8 -y -470 -defaultsOSRD
+preplace inst xup_dff_en_reset_6 -pg 1 -lvl 9 -y -460 -defaultsOSRD
+preplace inst xup_and2_0 -pg 1 -lvl 3 -y 10 -defaultsOSRD
+preplace inst xlconcat_6 -pg 1 -lvl 3 -y 810 -defaultsOSRD
+preplace inst xup_or2_1 -pg 1 -lvl 2 -y 440 -defaultsOSRD
+preplace inst xup_2_to_1_mux_vector_0 -pg 1 -lvl 8 -y 200 -defaultsOSRD
+preplace inst F_input_0 -pg 1 -lvl 9 -y -670 -defaultsOSRD
+preplace inst B_input_0 -pg 1 -lvl 5 -y -620 -defaultsOSRD
+preplace inst xup_and2_1 -pg 1 -lvl 3 -y 130 -defaultsOSRD
+preplace inst xup_2_to_1_mux_vector_1 -pg 1 -lvl 8 -y 600 -defaultsOSRD
+preplace inst xup_or5_0 -pg 1 -lvl 11 -y -470 -defaultsOSRD
+preplace netloc xlconstant_1_dout 1 2 1 1970
+preplace netloc seg7display_0_an_l 1 10 2 4930 -150 N
+preplace netloc xup_or3_0_y 1 2 1 2000
+preplace netloc xlslice_3_Dout 1 7 1 3850
+preplace netloc xlslice_1_Dout 1 7 1 3850
+preplace netloc bin2bcd_0_tens 1 5 1 3200
+preplace netloc A_input_0_AOut 1 3 2 2450 -880 2730
+preplace netloc bin2bcd_3_ones 1 5 1 3240
+preplace netloc Mode_1 1 0 8 NJ -100 NJ -100 NJ -100 NJ -100 NJ -100 NJ -100 NJ -100 3890J
+preplace netloc bin2bcd_1_tens 1 5 1 3220
+preplace netloc c_counter_binary_1_Q 1 4 1 2800
+preplace netloc en_1 1 0 9 -230J -560 NJ -560 1990 -560 2340 -560 2730 -500 3230 -550 3550 -550 3910 -780 4230
+preplace netloc xup_dff_en_reset_6_q 1 1 11 60 -740 1990 -850 2390 -910 N -910 N -910 N -910 3870 -900 4300 -770 4580 -580 4900J -580 NJ
+preplace netloc xup_or3_1_y 1 2 1 N
+preplace netloc resetC_1 1 0 9 -210 -570 30 -590 2020 -590 2410 -850 2740 -800 3190 -800 3540 -780 3900 -800 4270
+preplace netloc xup_or5_0_y 1 2 10 2050 -90 N -90 N -90 N -90 N -90 N -90 N -90 N -90 N -90 5250
+preplace netloc F_input_0_F_out 1 8 2 4290 -550 4570
+preplace netloc Debouncer_1_X0 1 1 11 N -770 2030J -830 2380J -830 2780J -810 3220J -810 3560J -800 3890J -810 4280J -800 NJ -800 N -800 5250
+preplace netloc xlconcat_1_dout 1 6 1 3550
+preplace netloc B_input_0_B_out 1 4 2 2840 -750 3150
+preplace netloc xup_dff_en_reset_5_q 1 1 11 50 -910 N -910 2370 -890 2810 -870 3230 -880 N -880 3940 -880 4240 -780 NJ -780 4880J -720 NJ
+preplace netloc xup_dff_en_reset_1_q 1 1 11 80 -760 2000 -820 2430 -930 2750 -850 N -850 N -850 N -850 N -850 N -850 4920 -700 N
+preplace netloc c_counter_binary_2_Q 1 4 1 2780
+preplace netloc seg7display_0_a_to_g 1 10 2 4890 -190 5260
+preplace netloc E_input_0_E_out 1 7 2 3950 -870 4220
+preplace netloc D_input_0_D_out 1 6 2 3590 -770 3850
+preplace netloc xup_clk_divider_0_clkout 1 0 12 -200 -510 30 -510 2050 -570 2350 -570 2770 -740 3180 -560 3570 -560 3930 -770 4250 -560 N -560 N -560 5260
+preplace netloc xup_2_to_1_mux_vector_1_y 1 8 1 4290
+preplace netloc xlconcat_3_dout 1 9 1 4580
+preplace netloc seg7display_0_dp_l 1 10 2 4910 -160 5270
+preplace netloc bin2bcd_0_ones 1 5 1 3230
+preplace netloc xup_dff_en_reset_4_q 1 1 11 80 860 1980 -950 N -950 N -950 3210 -900 3580 -840 3860 -840 N -840 N -840 4890 -780 N
+preplace netloc xlconstant_0_dout 1 3 1 2360
+preplace netloc c_counter_binary_0_Q 1 4 1 2830
+preplace netloc xup_dff_en_reset_0_q 1 2 10 2050J -870 2330 -940 N -940 N -940 N -940 N -940 N -940 N -940 N -940 5270
+preplace netloc C_input_0_C_out 1 5 2 3250 -870 3520
+preplace netloc xup_dff_en_reset_3_q 1 1 11 40 -960 N -960 N -960 2830 -780 3240 -890 3530 -790 3920 -790 N -790 N -790 4930 -850 N
+preplace netloc L1_1 1 0 1 -210J
+preplace netloc clk_1 1 0 10 -220 -980 N -980 N -980 N -980 N -980 N -980 N -980 N -980 N -980 4590
+preplace netloc xup_4_to_1_mux_vector_0_y 1 4 1 2800
+preplace netloc xup_2_to_1_mux_vector_0_y 1 8 1 4250
+preplace netloc xlslice_2_Dout 1 7 1 3940
+preplace netloc bin2bcd_2_ones 1 5 1 3180
+preplace netloc xup_or4_1_y 1 2 10 2060 330 N 330 N 330 3250 -30 N -30 N -30 N -30 N -30 N -30 5240
+preplace netloc xup_dff_en_reset_2_q 1 1 11 70 -880 N -880 2440 -920 2820 -790 3170 -830 N -830 N -830 N -830 NJ -830 4910 -600 N
+preplace netloc xup_or2_1_y 1 2 1 2040
+preplace netloc Idle_input_0_IdleOut 1 2 2 2060 -810 2320
+preplace netloc L2_1 1 0 1 -230J
+preplace netloc Debouncer_0_X0 1 1 11 N -900 2040J -900 2360J -900 2800J -820 3200J -820 3550J -570 3940J -550 4260J -570 NJ -570 N -570 5270
+preplace netloc NC_1 1 0 1 -210J
+preplace netloc xup_and2_0_y 1 3 1 2380
+preplace netloc xlconcat_6_dout 1 3 1 2440
+preplace netloc xlconcat_4_dout 1 3 1 2440
+preplace netloc xlconcat_2_dout 1 6 1 3560
+preplace netloc bin2bcd_2_tens 1 5 1 3150
+preplace netloc bin2bcd_1_ones 1 5 1 3240
+preplace netloc reset_1 1 0 10 NJ -550 N -550 2040 -580 2420 -870 2760 -340 3230 -390 3560 -390 3900 -390 4260 -380 4570
+preplace netloc xup_and2_1_y 1 3 1 2330
+preplace netloc xup_4_to_1_mux_vector_1_y 1 4 1 N
+preplace netloc bin2bcd_4_ones 1 5 1 3190
+preplace netloc xlslice_0_Dout 1 7 1 3920
+preplace netloc Debouncer_2_X0 1 1 11 N -640 2010J -840 2400J -840 2790J -830 3160J -840 3570J -820 3880J -820 4290J -820 NJ -820 N -820 5260
+levelinfo -pg 1 -250 -60 1850 2190 2590 3000 3390 3720 4090 4440 4740 5120 7200 -top -2080 -bot 1200
+",
+}
+0

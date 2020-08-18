@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1577689096">
+  <File Type="PA-TCL" Name="Project_design_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="Project_design_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Project_design_wrapper.vds"/>
+  <File Type="RDS-DCP" Name="Project_design_wrapper.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/Project_design/Project_design.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/Project_design_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/Project_design/hdl/Project_design_wrapper.vhd"/>
+        <Attr Name="ImportTime" Val="1577686055"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Debouncer/Debouncer.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/B_input/B_input.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/C_input/C_input.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/D_input/D_input.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/E_input/E_input.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/F_input/F_input.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Idle_input/Idle_input.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/A_input/A_input.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/A_input_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/A_input/hdl/A_input_wrapper.vhd"/>
+        <Attr Name="ImportTime" Val="1577626369"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Project_design_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../Desktop/Basys-3-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_or5_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_or4_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_c_counter_binary_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_dff_en_reset_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_bin2bcd_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_dff_en_reset_0_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_dff_en_reset_0_6"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_bin2bcd_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_dff_en_reset_0_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_E_input_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_clk_divider_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_bin2bcd_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_dff_en_reset_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_c_counter_binary_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_dff_en_reset_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_bin2bcd_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_dff_en_reset_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xlconcat_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xlslice_1_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_seg7display_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_Debouncer_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_Debouncer_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_2_to_1_mux_vector_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_2_to_1_mux_vector_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xlconcat_1_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xlslice_0_10"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xlslice_0_9"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xlslice_0_11"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xlconstant_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_4_to_1_mux_vector_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xlconstant_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xup_4_to_1_mux_vector_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_xlconcat_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_A_input_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_B_input_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_D_input_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_F_input_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_Idle_input_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Project_design_C_input_0_0"/>
+</GenRun>

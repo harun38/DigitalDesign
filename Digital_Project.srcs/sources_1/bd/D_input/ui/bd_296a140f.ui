@@ -1,0 +1,45 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port C -pg 1 -y 20 -defaultsOSRD
+preplace port D -pg 1 -y 40 -defaultsOSRD
+preplace port NC -pg 1 -y 120 -defaultsOSRD
+preplace port L1 -pg 1 -y -70 -defaultsOSRD
+preplace port L2 -pg 1 -y -30 -defaultsOSRD
+preplace port Reset -pg 1 -y 160 -defaultsOSRD
+preplace port D_out -pg 1 -y 50 -defaultsOSRD
+preplace inst xup_or3_0 -pg 1 -lvl 6 -y 50 -defaultsOSRD -resize 45 60
+preplace inst xup_inv_0 -pg 1 -lvl 2 -y -110 -defaultsOSRD -resize 70 50
+preplace inst xup_xor2_0 -pg 1 -lvl 3 -y -200 -defaultsOSRD
+preplace inst xup_and4_0 -pg 1 -lvl 4 -y 280 -defaultsOSRD
+preplace inst xup_and3_0 -pg 1 -lvl 4 -y 0 -defaultsOSRD
+preplace inst xup_and4_1 -pg 1 -lvl 7 -y -200 -defaultsOSRD
+preplace inst xup_inv_1 -pg 1 -lvl 2 -y -30 -defaultsOSRD -resize 45 50
+preplace inst xup_and4_2 -pg 1 -lvl 5 -y -200 -defaultsOSRD
+preplace inst xup_inv_2 -pg 1 -lvl 7 -y 350 -defaultsOSRD
+preplace inst xup_inv_3 -pg 1 -lvl 1 -y 220 -defaultsOSRD
+preplace inst xup_or2_1 -pg 1 -lvl 8 -y 60 -defaultsOSRD
+preplace inst xup_and2_1 -pg 1 -lvl 9 -y 270 -defaultsOSRD
+preplace netloc xup_inv_3_y 1 1 4 380 -160 520J -130 770J -170 NJ
+preplace netloc xup_or3_0_y 1 6 2 NJ 50 N
+preplace netloc xup_inv_2_y 1 7 2 1710J 280 N
+preplace netloc xup_xor2_0_y 1 3 1 780
+preplace netloc xup_and4_2_y 1 5 1 1320
+preplace netloc xup_inv_0_y 1 2 5 520 -120 790 -130 1060 -120 1310 -190 N
+preplace netloc L1_1 1 0 3 -110 -120 390 -210 N
+preplace netloc xup_and4_1_y 1 5 3 1340J -120 NJ -120 1710
+preplace netloc xup_and3_0_y 1 4 2 N 0 1300
+preplace netloc xup_or2_1_y 1 8 1 1960
+preplace netloc xup_and4_0_y 1 4 4 1050 100 NJ 100 1460J 70 N
+preplace netloc L2_1 1 0 3 -110 -40 400 -190 N
+preplace netloc NC_1 1 0 7 -110J 310 390 270 N 270 800 -110 N -110 1300 -210 N
+preplace netloc D_1 1 0 7 -110J 30 NJ 30 520J -20 760J -230 1050J -280 N -280 1460
+preplace netloc Reset_1 1 0 7 -100J 130 NJ 130 NJ 130 NJ 130 N 130 N 130 1460
+preplace netloc xup_inv_1_y 1 2 5 520 -40 810 -100 1050 -100 1330 -170 N
+preplace netloc xup_and2_1_y 1 9 1 2200
+preplace netloc C_1 1 0 4 NJ 20 N 20 N 20 770
+levelinfo -pg 1 -130 260 460 640 930 1180 1400 1590 1840 2080 2220 -top -610 -bot 430
+",
+}
+0

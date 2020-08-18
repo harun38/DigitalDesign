@@ -1,0 +1,56 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ipshared/37a5/src/xup_dff_en_reset.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_dff_en_reset_0_0/sim/Project_design_xup_dff_en_reset_0_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_dff_en_reset_0_1/sim/Project_design_xup_dff_en_reset_0_1.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_dff_en_reset_0_2/sim/Project_design_xup_dff_en_reset_0_2.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_dff_en_reset_0_3/sim/Project_design_xup_dff_en_reset_0_3.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_dff_en_reset_0_4/sim/Project_design_xup_dff_en_reset_0_4.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_dff_en_reset_0_5/sim/Project_design_xup_dff_en_reset_0_5.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_dff_en_reset_0_6/sim/Project_design_xup_dff_en_reset_0_6.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ipshared/bd45/src/xup_clk_divider.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_clk_divider_0_0/sim/Project_design_xup_clk_divider_0_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ipshared/f667/src/seg7display.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_seg7display_0_0/sim/Project_design_seg7display_0_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ipshared/59e9/src/xup_or5.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_or5_0_0/sim/Project_design_xup_or5_0_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ipshared/8053/src/xup_or4.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_or4_1_0/sim/Project_design_xup_or4_1_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xlconcat_1_0/sim/Project_design_xlconcat_1_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ipshared/df32/src/bin2BCD.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_bin2bcd_0_0/sim/Project_design_bin2bcd_0_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_bin2bcd_0_1/sim/Project_design_bin2bcd_0_1.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xlconcat_1_1/sim/Project_design_xlconcat_1_1.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_bin2bcd_1_0/sim/Project_design_bin2bcd_1_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ipshared/507c/src/xup_2_to_1_mux_vector.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_2_to_1_mux_vector_0_0/sim/Project_design_xup_2_to_1_mux_vector_0_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_2_to_1_mux_vector_0_1/sim/Project_design_xup_2_to_1_mux_vector_0_1.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xlconcat_1_2/sim/Project_design_xlconcat_1_2.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xlslice_0_9/sim/Project_design_xlslice_0_9.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xlslice_0_10/sim/Project_design_xlslice_0_10.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xlslice_0_11/sim/Project_design_xlslice_0_11.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xlslice_1_1/sim/Project_design_xlslice_1_1.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ipshared/0118/src/xup_or3.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_or3_0_0/sim/Project_design_xup_or3_0_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ipshared/c3d7/src/xup_or2.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_or2_0_1/sim/Project_design_xup_or2_0_1.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ipshared/dcca/src/xup_4_to_1_mux_vector.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_4_to_1_mux_vector_0_0/sim/Project_design_xup_4_to_1_mux_vector_0_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xlconcat_2_0/sim/Project_design_xlconcat_2_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xlconstant_0_0/sim/Project_design_xlconstant_0_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_bin2bcd_2_0/sim/Project_design_bin2bcd_2_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_bin2bcd_3_0/sim/Project_design_bin2bcd_3_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xlconstant_0_1/sim/Project_design_xlconstant_0_1.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_or3_0_1/sim/Project_design_xup_or3_0_1.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_4_to_1_mux_vector_0_1/sim/Project_design_xup_4_to_1_mux_vector_0_1.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xlconcat_5_0/sim/Project_design_xlconcat_5_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ipshared/9859/src/xup_and2.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_and2_0_0/sim/Project_design_xup_and2_0_0.v" \
+"../../../../Digital_Project.ip_user_files/bd/Project_design/ip/Project_design_xup_and2_0_1/sim/Project_design_xup_and2_0_1.v" \
+"c:/Users/harun/Digital_Project/Digital_Project.srcs/sources_1/bd/Project_design/ip/Project_design_Debouncer_2_0_1/Project_design_Debouncer_2_0_sim_netlist.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

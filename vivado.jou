@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Dec 30 10:18:49 2019
+# Process ID: 3792
+# Current directory: C:/Users/harun/Digital_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1144 C:\Users\harun\Digital_Project\Digital_Project.xpr
+# Log file: C:/Users/harun/Digital_Project/vivado.log
+# Journal file: C:/Users/harun/Digital_Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/harun/Digital_Project/Digital_Project.xpr

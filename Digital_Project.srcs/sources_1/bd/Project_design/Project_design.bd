@@ -1,0 +1,1155 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0xC5741C1B894EADEE" bd:device="xc7a35tcpg236-1" bd:isValidated="true" bd:synthFlowMode="Hierarchical" bd:tool_version="2017.4" bd:top="Project_design" bd:version="1.00.a">
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>Project_design</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:parameters>
+      <spirit:parameter>
+        <spirit:name>isTop</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
+      </spirit:parameter>
+    </spirit:parameters>
+    <spirit:busInterfaces>
+      <spirit:busInterface>
+        <spirit:name>CLK.CLK</spirit:name>
+        <spirit:displayName>Clk</spirit:displayName>
+        <spirit:description>Clock</spirit:description>
+        <spirit:busType spirit:library="signal" spirit:name="clock" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="signal" spirit:name="clock_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:slave/>
+        <spirit:portMaps>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>CLK</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>clk</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+        </spirit:portMaps>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>FREQ_HZ</spirit:name>
+            <spirit:value>100000000</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="user"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>PHASE</spirit:name>
+            <spirit:value>0.000</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>CLK_DOMAIN</spirit:name>
+            <spirit:value>Project_design_clk</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>ASSOCIATED_RESET</spirit:name>
+            <spirit:value>reset</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:busInterface>
+      <spirit:busInterface>
+        <spirit:name>RST.RESET</spirit:name>
+        <spirit:displayName>Reset</spirit:displayName>
+        <spirit:description>Reset</spirit:description>
+        <spirit:busType spirit:library="signal" spirit:name="reset" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="signal" spirit:name="reset_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:slave/>
+        <spirit:portMaps>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>RST</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>reset</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+        </spirit:portMaps>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>POLARITY</spirit:name>
+            <spirit:value>ACTIVE_LOW</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="user"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:busInterface>
+      <spirit:busInterface>
+        <spirit:name>RST.RESETC</spirit:name>
+        <spirit:displayName>Reset</spirit:displayName>
+        <spirit:description>Reset</spirit:description>
+        <spirit:busType spirit:library="signal" spirit:name="reset" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="signal" spirit:name="reset_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:slave/>
+        <spirit:portMaps>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>RST</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>resetC</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+        </spirit:portMaps>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>POLARITY</spirit:name>
+            <spirit:value>ACTIVE_HIGH</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="user"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:busInterface>
+    </spirit:busInterfaces>
+    <spirit:model>
+      <spirit:views>
+        <spirit:view>
+          <spirit:name>BlockDiagram</spirit:name>
+          <spirit:envIdentifier>:vivado.xilinx.com:</spirit:envIdentifier>
+          <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="Project_design_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
+        </spirit:view>
+      </spirit:views>
+      <spirit:ports>
+        <spirit:port>
+          <spirit:name>clk</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>clockOutput</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>NC</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>L1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>reset</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>ALed</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>FLed</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>BLed</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>ELed</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>CLed</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>NCLed</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>L1Out</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>L2Out</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>DLed</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>CSR1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>CSR2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>L2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>seg</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+            <spirit:vector>
+              <spirit:left>6</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>IdleLed</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>en</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>dp</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>an</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+            <spirit:vector>
+              <spirit:left>3</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>resetC</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Mode</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+      </spirit:ports>
+    </spirit:model>
+  </spirit:component>
+
+  <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>Project_design_imp</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:componentInstances>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_dff_en_reset_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_dff_en_reset" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_dff_en_reset_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_dff_en_reset_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_dff_en_reset" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_dff_en_reset_0_1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_dff_en_reset_2</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_dff_en_reset" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_dff_en_reset_0_2</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_dff_en_reset_3</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_dff_en_reset" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_dff_en_reset_0_3</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_dff_en_reset_4</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_dff_en_reset" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_dff_en_reset_0_4</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_dff_en_reset_5</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_dff_en_reset" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_dff_en_reset_0_5</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_dff_en_reset_6</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_dff_en_reset" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_dff_en_reset_0_6</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_clk_divider_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_clk_divider" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_clk_divider_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SIZE">200000000</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>seg7display_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="seg7display" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_seg7display_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_or5_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_or5" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_or5_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_or4_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_or4" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_or4_1_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>c_counter_binary_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="c_counter_binary" spirit:vendor="xilinx.com" spirit:version="12.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_c_counter_binary_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Implementation">Fabric</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Output_Width">7</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Restrict_Count">true</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Final_Count_Value">63</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CE">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SCLR">true</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>c_counter_binary_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="c_counter_binary" spirit:vendor="xilinx.com" spirit:version="12.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_c_counter_binary_0_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Output_Width">7</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Restrict_Count">true</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Final_Count_Value">63</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CE">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SCLR">true</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlconcat_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlconcat" spirit:vendor="xilinx.com" spirit:version="2.1"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xlconcat_1_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="NUM_PORTS">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN0_WIDTH">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN1_WIDTH">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN2_WIDTH">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN3_WIDTH">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN4_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN5_WIDTH">1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>Debouncer_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="Debouncer" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_Debouncer_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>Debouncer_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="Debouncer" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_Debouncer_0_1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>Debouncer_2</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="Debouncer" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_Debouncer_2_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>bin2bcd_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="bin2bcd" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_bin2bcd_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SIZE">7</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>bin2bcd_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="bin2bcd" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_bin2bcd_0_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SIZE">7</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>Idle_input_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="Idle_input" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_Idle_input_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>B_input_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="B_input" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_B_input_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>C_input_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="C_input" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_C_input_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>E_input_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="E_input" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_E_input_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>F_input_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="F_input" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_F_input_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>D_input_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="D_input" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_D_input_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>c_counter_binary_2</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="c_counter_binary" spirit:vendor="xilinx.com" spirit:version="12.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_c_counter_binary_1_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Output_Width">7</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Restrict_Count">true</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Final_Count_Value">63</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CE">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SCLR">true</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlconcat_2</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlconcat" spirit:vendor="xilinx.com" spirit:version="2.1"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xlconcat_1_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="NUM_PORTS">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN0_WIDTH">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN1_WIDTH">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN2_WIDTH">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN3_WIDTH">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN4_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN5_WIDTH">1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>bin2bcd_2</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="bin2bcd" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_bin2bcd_1_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SIZE">7</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_2_to_1_mux_vector_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_2_to_1_mux_vector" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_2_to_1_mux_vector_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SIZE">8</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_2_to_1_mux_vector_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_2_to_1_mux_vector" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_2_to_1_mux_vector_0_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SIZE">8</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlconcat_3</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlconcat" spirit:vendor="xilinx.com" spirit:version="2.1"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xlconcat_1_2</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="NUM_PORTS">2</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN0_WIDTH">8</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN1_WIDTH">8</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN2_WIDTH">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN3_WIDTH">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN4_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN5_WIDTH">1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlslice_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlslice" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xlslice_0_9</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_TO">8</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_FROM">15</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_WIDTH">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DOUT_WIDTH">8</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlslice_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlslice" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xlslice_0_10</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_TO">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_FROM">7</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_WIDTH">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DOUT_WIDTH">8</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlslice_2</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlslice" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xlslice_0_11</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_TO">8</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_FROM">15</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_WIDTH">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DOUT_WIDTH">8</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlslice_3</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlslice" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xlslice_1_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_TO">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_FROM">7</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_WIDTH">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DOUT_WIDTH">8</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_or3_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_or3" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_or3_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_or2_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_or2" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_or2_0_1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_4_to_1_mux_vector_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_4_to_1_mux_vector" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_4_to_1_mux_vector_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SIZE">3</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlconcat_4</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlconcat" spirit:vendor="xilinx.com" spirit:version="2.1"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xlconcat_2_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="NUM_PORTS">3</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN0_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN1_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN2_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN3_WIDTH">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN4_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN5_WIDTH">1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlconstant_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlconstant" spirit:vendor="xilinx.com" spirit:version="1.1"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xlconstant_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CONST_WIDTH">3</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CONST_VAL">0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>bin2bcd_3</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="bin2bcd" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_bin2bcd_2_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SIZE">3</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>bin2bcd_4</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="bin2bcd" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_bin2bcd_3_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SIZE">3</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlconstant_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlconstant" spirit:vendor="xilinx.com" spirit:version="1.1"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xlconstant_0_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CONST_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CONST_VAL">0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_or3_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_or3" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_or3_0_1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_4_to_1_mux_vector_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_4_to_1_mux_vector" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_4_to_1_mux_vector_0_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SIZE">3</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlconcat_6</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlconcat" spirit:vendor="xilinx.com" spirit:version="2.1"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xlconcat_5_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="NUM_PORTS">3</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN0_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN1_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN2_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN3_WIDTH">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN4_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN5_WIDTH">1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>A_input_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="A_input" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_A_input_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_and2_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_and2" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_and2_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xup_and2_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="XUP" spirit:name="xup_and2" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Project_design_xup_and2_0_1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+    </spirit:componentInstances>
+    <spirit:adHocConnections>
+      <spirit:adHocConnection>
+        <spirit:name>clk_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="xup_clk_divider_0" spirit:portRef="clkin"/>
+        <spirit:internalPortReference spirit:componentRef="seg7display_0" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="Debouncer_0" spirit:portRef="FSLK"/>
+        <spirit:internalPortReference spirit:componentRef="Debouncer_1" spirit:portRef="FSLK"/>
+        <spirit:internalPortReference spirit:componentRef="Debouncer_2" spirit:portRef="FSLK"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_clk_divider_0_clkout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_clk_divider_0" spirit:portRef="clkout"/>
+        <spirit:externalPortReference spirit:portRef="clockOutput"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_0" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_1" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_2" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_3" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_4" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_5" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_6" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="Debouncer_0" spirit:portRef="SCLK"/>
+        <spirit:internalPortReference spirit:componentRef="Debouncer_1" spirit:portRef="SCLK"/>
+        <spirit:internalPortReference spirit:componentRef="Debouncer_2" spirit:portRef="SCLK"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>NC_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="NC"/>
+        <spirit:internalPortReference spirit:componentRef="Debouncer_0" spirit:portRef="X"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>L1_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="L1"/>
+        <spirit:internalPortReference spirit:componentRef="Debouncer_1" spirit:portRef="X"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>reset_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="reset"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_0" spirit:portRef="reset"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_1" spirit:portRef="reset"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_2" spirit:portRef="reset"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_3" spirit:portRef="reset"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_4" spirit:portRef="reset"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_5" spirit:portRef="reset"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_6" spirit:portRef="reset"/>
+        <spirit:internalPortReference spirit:componentRef="seg7display_0" spirit:portRef="reset"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_dff_en_reset_1_q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_1" spirit:portRef="q"/>
+        <spirit:externalPortReference spirit:portRef="ALed"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or5_0" spirit:portRef="a"/>
+        <spirit:internalPortReference spirit:componentRef="Idle_input_0" spirit:portRef="A"/>
+        <spirit:internalPortReference spirit:componentRef="B_input_0" spirit:portRef="A"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or2_1" spirit:portRef="a"/>
+        <spirit:internalPortReference spirit:componentRef="A_input_0" spirit:portRef="A"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_dff_en_reset_6_q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_6" spirit:portRef="q"/>
+        <spirit:externalPortReference spirit:portRef="FLed"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or4_1" spirit:portRef="d"/>
+        <spirit:internalPortReference spirit:componentRef="Idle_input_0" spirit:portRef="F"/>
+        <spirit:internalPortReference spirit:componentRef="E_input_0" spirit:portRef="F"/>
+        <spirit:internalPortReference spirit:componentRef="F_input_0" spirit:portRef="F"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or3_1" spirit:portRef="c"/>
+        <spirit:internalPortReference spirit:componentRef="A_input_0" spirit:portRef="F"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_dff_en_reset_2_q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_2" spirit:portRef="q"/>
+        <spirit:externalPortReference spirit:portRef="BLed"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or5_0" spirit:portRef="b"/>
+        <spirit:internalPortReference spirit:componentRef="B_input_0" spirit:portRef="B"/>
+        <spirit:internalPortReference spirit:componentRef="C_input_0" spirit:portRef="B"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or3_0" spirit:portRef="a"/>
+        <spirit:internalPortReference spirit:componentRef="A_input_0" spirit:portRef="B"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_dff_en_reset_5_q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_5" spirit:portRef="q"/>
+        <spirit:externalPortReference spirit:portRef="ELed"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or5_0" spirit:portRef="e"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or4_1" spirit:portRef="c"/>
+        <spirit:internalPortReference spirit:componentRef="B_input_0" spirit:portRef="E"/>
+        <spirit:internalPortReference spirit:componentRef="C_input_0" spirit:portRef="E"/>
+        <spirit:internalPortReference spirit:componentRef="E_input_0" spirit:portRef="E"/>
+        <spirit:internalPortReference spirit:componentRef="F_input_0" spirit:portRef="E"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or2_1" spirit:portRef="b"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or3_1" spirit:portRef="b"/>
+        <spirit:internalPortReference spirit:componentRef="A_input_0" spirit:portRef="E"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_dff_en_reset_3_q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_3" spirit:portRef="q"/>
+        <spirit:externalPortReference spirit:portRef="CLed"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or5_0" spirit:portRef="c"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or4_1" spirit:portRef="a"/>
+        <spirit:internalPortReference spirit:componentRef="B_input_0" spirit:portRef="C"/>
+        <spirit:internalPortReference spirit:componentRef="C_input_0" spirit:portRef="C"/>
+        <spirit:internalPortReference spirit:componentRef="E_input_0" spirit:portRef="C"/>
+        <spirit:internalPortReference spirit:componentRef="D_input_0" spirit:portRef="C"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or3_0" spirit:portRef="b"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or3_1" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Debouncer_0_X0</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Debouncer_0" spirit:portRef="X0"/>
+        <spirit:externalPortReference spirit:portRef="NCLed"/>
+        <spirit:internalPortReference spirit:componentRef="Idle_input_0" spirit:portRef="NC"/>
+        <spirit:internalPortReference spirit:componentRef="B_input_0" spirit:portRef="NC"/>
+        <spirit:internalPortReference spirit:componentRef="C_input_0" spirit:portRef="NC"/>
+        <spirit:internalPortReference spirit:componentRef="E_input_0" spirit:portRef="NC"/>
+        <spirit:internalPortReference spirit:componentRef="F_input_0" spirit:portRef="NC"/>
+        <spirit:internalPortReference spirit:componentRef="D_input_0" spirit:portRef="NC"/>
+        <spirit:internalPortReference spirit:componentRef="c_counter_binary_2" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="A_input_0" spirit:portRef="NC"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Debouncer_1_X0</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Debouncer_1" spirit:portRef="X0"/>
+        <spirit:externalPortReference spirit:portRef="L1Out"/>
+        <spirit:internalPortReference spirit:componentRef="Idle_input_0" spirit:portRef="L1"/>
+        <spirit:internalPortReference spirit:componentRef="B_input_0" spirit:portRef="L1"/>
+        <spirit:internalPortReference spirit:componentRef="C_input_0" spirit:portRef="L1"/>
+        <spirit:internalPortReference spirit:componentRef="E_input_0" spirit:portRef="L1"/>
+        <spirit:internalPortReference spirit:componentRef="F_input_0" spirit:portRef="L1"/>
+        <spirit:internalPortReference spirit:componentRef="D_input_0" spirit:portRef="L1"/>
+        <spirit:internalPortReference spirit:componentRef="A_input_0" spirit:portRef="L1"/>
+        <spirit:internalPortReference spirit:componentRef="xup_and2_1" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Debouncer_2_X0</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Debouncer_2" spirit:portRef="X0"/>
+        <spirit:externalPortReference spirit:portRef="L2Out"/>
+        <spirit:internalPortReference spirit:componentRef="Idle_input_0" spirit:portRef="L2"/>
+        <spirit:internalPortReference spirit:componentRef="B_input_0" spirit:portRef="L2"/>
+        <spirit:internalPortReference spirit:componentRef="C_input_0" spirit:portRef="L2"/>
+        <spirit:internalPortReference spirit:componentRef="E_input_0" spirit:portRef="L2"/>
+        <spirit:internalPortReference spirit:componentRef="F_input_0" spirit:portRef="L2"/>
+        <spirit:internalPortReference spirit:componentRef="D_input_0" spirit:portRef="L2"/>
+        <spirit:internalPortReference spirit:componentRef="A_input_0" spirit:portRef="L2"/>
+        <spirit:internalPortReference spirit:componentRef="xup_and2_0" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>B_input_0_B_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="B_input_0" spirit:portRef="B_out"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_2" spirit:portRef="d"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_dff_en_reset_4_q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_4" spirit:portRef="q"/>
+        <spirit:externalPortReference spirit:portRef="DLed"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or5_0" spirit:portRef="d"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or4_1" spirit:portRef="b"/>
+        <spirit:internalPortReference spirit:componentRef="C_input_0" spirit:portRef="D"/>
+        <spirit:internalPortReference spirit:componentRef="D_input_0" spirit:portRef="D"/>
+        <spirit:internalPortReference spirit:componentRef="xup_or3_0" spirit:portRef="c"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_6" spirit:portRef="In1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>C_input_0_C_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="C_input_0" spirit:portRef="C_out"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_3" spirit:portRef="d"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>D_input_0_D_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="D_input_0" spirit:portRef="D_out"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_4" spirit:portRef="d"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>E_input_0_E_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="E_input_0" spirit:portRef="E_out"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_5" spirit:portRef="d"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>F_input_0_F_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="F_input_0" spirit:portRef="F_out"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_6" spirit:portRef="d"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_or5_0_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_or5_0" spirit:portRef="y"/>
+        <spirit:externalPortReference spirit:portRef="CSR1"/>
+        <spirit:internalPortReference spirit:componentRef="xup_and2_1" spirit:portRef="b"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_or4_1_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_or4_1" spirit:portRef="y"/>
+        <spirit:externalPortReference spirit:portRef="CSR2"/>
+        <spirit:internalPortReference spirit:componentRef="xup_and2_0" spirit:portRef="b"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>L2_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="L2"/>
+        <spirit:internalPortReference spirit:componentRef="Debouncer_2" spirit:portRef="X"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>seg7display_0_a_to_g</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="seg7display_0" spirit:portRef="a_to_g"/>
+        <spirit:externalPortReference spirit:portRef="seg"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_dff_en_reset_0_q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_0" spirit:portRef="q"/>
+        <spirit:externalPortReference spirit:portRef="IdleLed"/>
+        <spirit:internalPortReference spirit:componentRef="Idle_input_0" spirit:portRef="IDLE"/>
+        <spirit:internalPortReference spirit:componentRef="A_input_0" spirit:portRef="IDLE"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>A_input_0_AOut</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="A_input_0" spirit:portRef="AOut"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_1" spirit:portRef="d"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>en_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="en"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_0" spirit:portRef="en"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_1" spirit:portRef="en"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_2" spirit:portRef="en"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_3" spirit:portRef="en"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_4" spirit:portRef="en"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_5" spirit:portRef="en"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_6" spirit:portRef="en"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>c_counter_binary_0_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="c_counter_binary_0" spirit:portRef="Q"/>
+        <spirit:internalPortReference spirit:componentRef="bin2bcd_0" spirit:portRef="a_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>c_counter_binary_1_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="c_counter_binary_1" spirit:portRef="Q"/>
+        <spirit:internalPortReference spirit:componentRef="bin2bcd_1" spirit:portRef="a_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>bin2bcd_0_ones</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="bin2bcd_0" spirit:portRef="ones"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_1" spirit:portRef="In0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>seg7display_0_dp_l</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="seg7display_0" spirit:portRef="dp_l"/>
+        <spirit:externalPortReference spirit:portRef="dp"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>seg7display_0_an_l</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="seg7display_0" spirit:portRef="an_l"/>
+        <spirit:externalPortReference spirit:portRef="an"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>bin2bcd_0_tens</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="bin2bcd_0" spirit:portRef="tens"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_1" spirit:portRef="In1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>bin2bcd_1_ones</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="bin2bcd_1" spirit:portRef="ones"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_1" spirit:portRef="In2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>bin2bcd_1_tens</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="bin2bcd_1" spirit:portRef="tens"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_1" spirit:portRef="In3"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>resetC_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="resetC"/>
+        <spirit:internalPortReference spirit:componentRef="c_counter_binary_0" spirit:portRef="SCLR"/>
+        <spirit:internalPortReference spirit:componentRef="c_counter_binary_1" spirit:portRef="SCLR"/>
+        <spirit:internalPortReference spirit:componentRef="Idle_input_0" spirit:portRef="Reset"/>
+        <spirit:internalPortReference spirit:componentRef="B_input_0" spirit:portRef="Reset"/>
+        <spirit:internalPortReference spirit:componentRef="C_input_0" spirit:portRef="Reset"/>
+        <spirit:internalPortReference spirit:componentRef="E_input_0" spirit:portRef="Reset"/>
+        <spirit:internalPortReference spirit:componentRef="F_input_0" spirit:portRef="Reset"/>
+        <spirit:internalPortReference spirit:componentRef="D_input_0" spirit:portRef="Reset"/>
+        <spirit:internalPortReference spirit:componentRef="c_counter_binary_2" spirit:portRef="SCLR"/>
+        <spirit:internalPortReference spirit:componentRef="A_input_0" spirit:portRef="Reset"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Idle_input_0_IdleOut</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Idle_input_0" spirit:portRef="IdleOut"/>
+        <spirit:internalPortReference spirit:componentRef="xup_dff_en_reset_0" spirit:portRef="d"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>c_counter_binary_2_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="c_counter_binary_2" spirit:portRef="Q"/>
+        <spirit:internalPortReference spirit:componentRef="bin2bcd_2" spirit:portRef="a_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>bin2bcd_2_ones</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="bin2bcd_2" spirit:portRef="ones"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_2" spirit:portRef="In0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>bin2bcd_2_tens</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="bin2bcd_2" spirit:portRef="tens"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_2" spirit:portRef="In1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Mode_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="Mode"/>
+        <spirit:internalPortReference spirit:componentRef="xup_2_to_1_mux_vector_0" spirit:portRef="sel"/>
+        <spirit:internalPortReference spirit:componentRef="xup_2_to_1_mux_vector_1" spirit:portRef="sel"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlconcat_1_dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_1" spirit:portRef="dout"/>
+        <spirit:internalPortReference spirit:componentRef="xlslice_0" spirit:portRef="Din"/>
+        <spirit:internalPortReference spirit:componentRef="xlslice_1" spirit:portRef="Din"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlconcat_2_dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_2" spirit:portRef="dout"/>
+        <spirit:internalPortReference spirit:componentRef="xlslice_2" spirit:portRef="Din"/>
+        <spirit:internalPortReference spirit:componentRef="xlslice_3" spirit:portRef="Din"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlslice_0_Dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlslice_0" spirit:portRef="Dout"/>
+        <spirit:internalPortReference spirit:componentRef="xup_2_to_1_mux_vector_0" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlslice_2_Dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlslice_2" spirit:portRef="Dout"/>
+        <spirit:internalPortReference spirit:componentRef="xup_2_to_1_mux_vector_0" spirit:portRef="b"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlslice_1_Dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlslice_1" spirit:portRef="Dout"/>
+        <spirit:internalPortReference spirit:componentRef="xup_2_to_1_mux_vector_1" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlslice_3_Dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlslice_3" spirit:portRef="Dout"/>
+        <spirit:internalPortReference spirit:componentRef="xup_2_to_1_mux_vector_1" spirit:portRef="b"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlconcat_3_dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_3" spirit:portRef="dout"/>
+        <spirit:internalPortReference spirit:componentRef="seg7display_0" spirit:portRef="x_l"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_2_to_1_mux_vector_1_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_2_to_1_mux_vector_1" spirit:portRef="y"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_3" spirit:portRef="In0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_2_to_1_mux_vector_0_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_2_to_1_mux_vector_0" spirit:portRef="y"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_3" spirit:portRef="In1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlconcat_4_dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_4" spirit:portRef="dout"/>
+        <spirit:internalPortReference spirit:componentRef="xup_4_to_1_mux_vector_0" spirit:portRef="sel"/>
+        <spirit:internalPortReference spirit:componentRef="xup_4_to_1_mux_vector_0" spirit:portRef="b"/>
+        <spirit:internalPortReference spirit:componentRef="xup_4_to_1_mux_vector_0" spirit:portRef="c"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_or2_1_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_or2_1" spirit:portRef="y"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_4" spirit:portRef="In0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_or3_0_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_or3_0" spirit:portRef="y"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_4" spirit:portRef="In1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlconstant_0_dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlconstant_0" spirit:portRef="dout"/>
+        <spirit:internalPortReference spirit:componentRef="xup_4_to_1_mux_vector_0" spirit:portRef="a"/>
+        <spirit:internalPortReference spirit:componentRef="xup_4_to_1_mux_vector_0" spirit:portRef="d"/>
+        <spirit:internalPortReference spirit:componentRef="xup_4_to_1_mux_vector_1" spirit:portRef="a"/>
+        <spirit:internalPortReference spirit:componentRef="xup_4_to_1_mux_vector_1" spirit:portRef="d"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlconstant_1_dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlconstant_1" spirit:portRef="dout"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_4" spirit:portRef="In2"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_6" spirit:portRef="In2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_4_to_1_mux_vector_0_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_4_to_1_mux_vector_0" spirit:portRef="y"/>
+        <spirit:internalPortReference spirit:componentRef="bin2bcd_4" spirit:portRef="a_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>bin2bcd_4_ones</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="bin2bcd_4" spirit:portRef="ones"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_2" spirit:portRef="In2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>bin2bcd_3_ones</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="bin2bcd_3" spirit:portRef="ones"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_2" spirit:portRef="In3"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_4_to_1_mux_vector_1_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_4_to_1_mux_vector_1" spirit:portRef="y"/>
+        <spirit:internalPortReference spirit:componentRef="bin2bcd_3" spirit:portRef="a_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_or3_1_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_or3_1" spirit:portRef="y"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_6" spirit:portRef="In0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlconcat_6_dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_6" spirit:portRef="dout"/>
+        <spirit:internalPortReference spirit:componentRef="xup_4_to_1_mux_vector_1" spirit:portRef="sel"/>
+        <spirit:internalPortReference spirit:componentRef="xup_4_to_1_mux_vector_1" spirit:portRef="b"/>
+        <spirit:internalPortReference spirit:componentRef="xup_4_to_1_mux_vector_1" spirit:portRef="c"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_and2_1_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_and2_1" spirit:portRef="y"/>
+        <spirit:internalPortReference spirit:componentRef="c_counter_binary_0" spirit:portRef="CLK"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xup_and2_0_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xup_and2_0" spirit:portRef="y"/>
+        <spirit:internalPortReference spirit:componentRef="c_counter_binary_1" spirit:portRef="CLK"/>
+      </spirit:adHocConnection>
+    </spirit:adHocConnections>
+  </spirit:design>
+
+</bd:repository>

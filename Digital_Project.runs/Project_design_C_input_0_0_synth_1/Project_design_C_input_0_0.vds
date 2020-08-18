@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Dec 30 09:58:30 2019
+# Process ID: 21440
+# Current directory: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_C_input_0_0_synth_1
+# Command line: vivado.exe -log Project_design_C_input_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Project_design_C_input_0_0.tcl
+# Log file: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_C_input_0_0_synth_1/Project_design_C_input_0_0.vds
+# Journal file: C:/Users/harun/Digital_Project/Digital_Project.runs/Project_design_C_input_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Project_design_C_input_0_0.tcl -notrace
+Command: synth_design -top Project_design_C_input_0_0 -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-83] Releasing license: Synthesis
+2 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Designutils 20-414] HRTInvokeSpec : No Verilog or VHDL sources specified
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 30 09:58:38 2019...
